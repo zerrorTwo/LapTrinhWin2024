@@ -15,6 +15,7 @@ namespace WindowsFormsApp1.Forms
         public MainForm()
         {
             InitializeComponent();
+            timer1.Start();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -76,6 +77,17 @@ namespace WindowsFormsApp1.Forms
         }
 
         private void bunifuButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lbTime.Text = DateTime.Now.ToLongTimeString();
+            lbDate.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void lbTime_Click(object sender, EventArgs e)
         {
 
         }

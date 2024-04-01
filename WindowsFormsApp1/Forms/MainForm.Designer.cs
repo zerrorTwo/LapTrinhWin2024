@@ -28,31 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges41 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges42 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges43 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges44 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges45 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.btnAccount = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnAdd = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnOption = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnRevenue = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnHome = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbHello = new System.Windows.Forms.Label();
+            this.lbTime = new System.Windows.Forms.Label();
+            this.lbDate = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.lbDoanhthu = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel15.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -97,7 +117,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(239)))));
-            this.panel8.Controls.Add(this.btnAccount);
+            this.panel8.Controls.Add(this.panel10);
             this.panel8.Controls.Add(this.btnAdd);
             this.panel8.Controls.Add(this.btnOption);
             this.panel8.Controls.Add(this.btnRevenue);
@@ -107,35 +127,6 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(198, 496);
             this.panel8.TabIndex = 0;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Silver;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1079, 1);
-            this.panel4.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1079, 144);
-            this.panel2.TabIndex = 0;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(239)))));
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(199, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(880, 144);
-            this.panel6.TabIndex = 1;
-            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint_1);
             // 
             // btnAccount
             // 
@@ -156,15 +147,16 @@
             this.btnAccount.ColorContrastOnClick = 45;
             this.btnAccount.ColorContrastOnHover = 45;
             this.btnAccount.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.btnAccount.CustomizableEdges = borderEdges1;
+            borderEdges41.BottomLeft = true;
+            borderEdges41.BottomRight = true;
+            borderEdges41.TopLeft = true;
+            borderEdges41.TopRight = true;
+            this.btnAccount.CustomizableEdges = borderEdges41;
             this.btnAccount.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAccount.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAccount.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.btnAccount.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnAccount.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnAccount.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.btnAccount.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAccount.ForeColor = System.Drawing.Color.Gray;
@@ -184,7 +176,7 @@
             this.btnAccount.IdleIconLeftImage = global::WindowsFormsApp1.Properties.Resources.account;
             this.btnAccount.IdleIconRightImage = null;
             this.btnAccount.IndicateFocus = false;
-            this.btnAccount.Location = new System.Drawing.Point(-3, 424);
+            this.btnAccount.Location = new System.Drawing.Point(0, 0);
             this.btnAccount.Name = "btnAccount";
             this.btnAccount.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAccount.OnDisabledState.BorderRadius = 1;
@@ -218,7 +210,7 @@
             this.btnAccount.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnAccount.OnPressedState.IconLeftImage = null;
             this.btnAccount.OnPressedState.IconRightImage = null;
-            this.btnAccount.Size = new System.Drawing.Size(199, 72);
+            this.btnAccount.Size = new System.Drawing.Size(198, 72);
             this.btnAccount.TabIndex = 4;
             this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAccount.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -246,11 +238,11 @@
             this.btnAdd.ColorContrastOnClick = 45;
             this.btnAdd.ColorContrastOnHover = 45;
             this.btnAdd.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnAdd.CustomizableEdges = borderEdges2;
+            borderEdges42.BottomLeft = true;
+            borderEdges42.BottomRight = true;
+            borderEdges42.TopLeft = true;
+            borderEdges42.TopRight = true;
+            this.btnAdd.CustomizableEdges = borderEdges42;
             this.btnAdd.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAdd.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAdd.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -335,11 +327,11 @@
             this.btnOption.ColorContrastOnClick = 45;
             this.btnOption.ColorContrastOnHover = 45;
             this.btnOption.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btnOption.CustomizableEdges = borderEdges3;
+            borderEdges43.BottomLeft = true;
+            borderEdges43.BottomRight = true;
+            borderEdges43.TopLeft = true;
+            borderEdges43.TopRight = true;
+            this.btnOption.CustomizableEdges = borderEdges43;
             this.btnOption.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnOption.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnOption.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -424,11 +416,11 @@
             this.btnRevenue.ColorContrastOnClick = 45;
             this.btnRevenue.ColorContrastOnHover = 45;
             this.btnRevenue.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.btnRevenue.CustomizableEdges = borderEdges4;
+            borderEdges44.BottomLeft = true;
+            borderEdges44.BottomRight = true;
+            borderEdges44.TopLeft = true;
+            borderEdges44.TopRight = true;
+            this.btnRevenue.CustomizableEdges = borderEdges44;
             this.btnRevenue.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnRevenue.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnRevenue.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -514,11 +506,11 @@
             this.btnHome.ColorContrastOnClick = 45;
             this.btnHome.ColorContrastOnHover = 45;
             this.btnHome.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.btnHome.CustomizableEdges = borderEdges5;
+            borderEdges45.BottomLeft = true;
+            borderEdges45.BottomRight = true;
+            borderEdges45.TopLeft = true;
+            borderEdges45.TopRight = true;
+            this.btnHome.CustomizableEdges = borderEdges45;
             this.btnHome.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnHome.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnHome.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -585,6 +577,40 @@
             this.btnHome.UseDefaultRadiusAndThickness = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click_1);
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Silver;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1079, 1);
+            this.panel4.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1079, 144);
+            this.panel2.TabIndex = 0;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(239)))));
+            this.panel6.Controls.Add(this.lbDoanhthu);
+            this.panel6.Controls.Add(this.label3);
+            this.panel6.Controls.Add(this.panel11);
+            this.panel6.Controls.Add(this.lbHello);
+            this.panel6.Controls.Add(this.label1);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel6.Location = new System.Drawing.Point(199, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(880, 144);
+            this.panel6.TabIndex = 1;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint_1);
+            // 
             // panel5
             // 
             this.panel5.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.AnyConv_com___de6d4246_68ae_4fef_bf30_f8faf2d214d9;
@@ -595,6 +621,128 @@
             this.panel5.Size = new System.Drawing.Size(199, 144);
             this.panel5.TabIndex = 0;
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint_1);
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.btnAccount);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel10.Location = new System.Drawing.Point(0, 424);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(198, 72);
+            this.panel10.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Forte", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(23, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(125, 31);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Xin chào:";
+            // 
+            // lbHello
+            // 
+            this.lbHello.AutoSize = true;
+            this.lbHello.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbHello.Location = new System.Drawing.Point(155, 26);
+            this.lbHello.Name = "lbHello";
+            this.lbHello.Size = new System.Drawing.Size(81, 29);
+            this.lbHello.TabIndex = 1;
+            this.lbHello.Text = "Admin";
+            // 
+            // lbTime
+            // 
+            this.lbTime.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTime.Location = new System.Drawing.Point(0, 0);
+            this.lbTime.Name = "lbTime";
+            this.lbTime.Size = new System.Drawing.Size(414, 75);
+            this.lbTime.TabIndex = 2;
+            this.lbTime.Text = "label2";
+            this.lbTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbTime.Click += new System.EventHandler(this.lbTime_Click);
+            // 
+            // lbDate
+            // 
+            this.lbDate.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDate.Location = new System.Drawing.Point(0, 0);
+            this.lbDate.Name = "lbDate";
+            this.lbDate.Size = new System.Drawing.Size(414, 69);
+            this.lbDate.TabIndex = 3;
+            this.lbDate.Text = "label2";
+            this.lbDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.panel12);
+            this.panel11.Controls.Add(this.panel13);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel11.Location = new System.Drawing.Point(343, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(537, 144);
+            this.panel11.TabIndex = 4;
+            // 
+            // panel13
+            // 
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel13.Location = new System.Drawing.Point(414, 0);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(123, 144);
+            this.panel13.TabIndex = 1;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.panel15);
+            this.panel12.Controls.Add(this.panel14);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel12.Location = new System.Drawing.Point(0, 0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(414, 144);
+            this.panel12.TabIndex = 2;
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.lbTime);
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel14.Location = new System.Drawing.Point(0, 0);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(414, 75);
+            this.panel14.TabIndex = 0;
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.lbDate);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel15.Location = new System.Drawing.Point(0, 75);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(414, 69);
+            this.panel15.TabIndex = 1;
+            // 
+            // lbDoanhthu
+            // 
+            this.lbDoanhthu.AutoSize = true;
+            this.lbDoanhthu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDoanhthu.Location = new System.Drawing.Point(174, 82);
+            this.lbDoanhthu.Name = "lbDoanhthu";
+            this.lbDoanhthu.Size = new System.Drawing.Size(40, 29);
+            this.lbDoanhthu.TabIndex = 6;
+            this.lbDoanhthu.Text = "0đ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Forte", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(23, 80);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(145, 31);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Doanh thu:";
             // 
             // MainForm
             // 
@@ -609,6 +757,13 @@
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel11.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -629,5 +784,18 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnOption;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnAccount;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnAdd;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label lbHello;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbDate;
+        private System.Windows.Forms.Label lbTime;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Label lbDoanhthu;
+        private System.Windows.Forms.Label label3;
     }
 }
