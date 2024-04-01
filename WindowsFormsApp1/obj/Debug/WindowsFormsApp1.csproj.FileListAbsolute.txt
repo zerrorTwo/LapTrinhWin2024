@@ -1,0 +1,15 @@
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\aaaaaaaaaaaaaaaaaa\SPKT\LTW\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
